@@ -15,7 +15,7 @@ namespace NestedLoop
                 int counter2 = counter;
 
                 while (counter2 < 5) {
-                    Console.WriteLine(name);
+                    Console.Write(name);
                     counter2 = counter2 + 1;
                 }
                 Console.WriteLine();
