@@ -10,7 +10,7 @@ namespace NestedLoop
             int counter = 0;
 
             while (counter < 10) {
-                counter = counter + 1;
+    
 
                 int counter2 = counter;
 
@@ -18,6 +18,8 @@ namespace NestedLoop
                     Console.WriteLine(name);
                     counter2 = counter2 + 1;
                 }
+                Console.WriteLine();
+                counter = counter + 1;
             }
 
             Console.WriteLine("Goodbye "+ name);
